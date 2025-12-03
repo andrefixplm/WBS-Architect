@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WBS Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              canvas: '#f1f5f9',
+              panel: '#ffffff',
+              primary: '#3b82f6',
+              secondary: '#64748b',
+              accent: '#f59e0b',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reactflow@11.11.4/dist/style.css" />
+    <style>
+      body { font-family: 'Inter', sans-serif; background-color: #f1f5f9; }
+      /* React Flow Overrides for N8N look */
+      .react-flow__edge-path { stroke: #94a3b8; stroke-width: 2; }
+      .react-flow__handle { width: 8px; height: 8px; background: #64748b; }
+      .react-flow__handle:hover { background: #3b82f6; transform: scale(1.2); transition: 0.2s; }
+      .react-flow__attribution { display: none; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "reactflow/": "https://aistudiocdn.com/reactflow@^11.11.4/",
+    "reactflow": "https://aistudiocdn.com/reactflow@^11.11.4"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

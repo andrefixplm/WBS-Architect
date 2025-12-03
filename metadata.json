@@ -1,0 +1,5 @@
+{
+  "name": "WBS Architect",
+  "description": "A professional, visual Work Breakdown Structure builder inspired by N8N. Create, organize, and export WBS hierarchies via drag-and-drop.",
+  "requestFramePermissions": []
+}
